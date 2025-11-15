@@ -1,0 +1,11 @@
+fastapi
+"uvicorn[standard]"
+python-multipart
+sentence-transformers
+faiss-cpu
+groq
+streamlit
+pydantic
+requests
+pandas
+pypdf

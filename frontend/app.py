@@ -2,7 +2,9 @@ import streamlit as st
 import requests
 import pandas as pd
 
-BACKEND_URL = "http://127.0.0.1:8000"  # use the same host as uvicorn logs
+import os
+
+BACKEND_URL = os.getenv("BACKEND_URL")
 
 st.set_page_config(page_title="RAG Pipeline Optimizer", layout="wide")
 
